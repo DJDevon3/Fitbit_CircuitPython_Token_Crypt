@@ -2,6 +2,7 @@
 SHA-256 Base64 URL Encoded Tokenizer
 
 # Example using Circuit Python 8.2
+- requires circuit python hashlib
 
 ```py
 # SHA-256
