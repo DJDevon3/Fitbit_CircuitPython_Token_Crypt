@@ -2,9 +2,15 @@
 SHA-256 Base64 URL Encoded Tokenizer
 
 # Example using Circuit Python 8.2
-- requires circuit python hashlib
+### Required Libraries:
+- [Adafruit_CircuitPython_hashlib](https://github.com/adafruit/Adafruit_CircuitPython_hashlib)
+- [Adafruit_CircuitPython_binascii](https://github.com/adafruit/Adafruit_CircuitPython_binascii)
+- [Community Bundle CircuitPython_Base64](https://github.com/jimbobbennett/CircuitPython_Base64/tree/master)
+
 
 ```py
+import adafruit_hashlib as hashlib
+import circuitpython_base64 as base64
 # SHA-256
 print("\n--SHA256--")
 m = hashlib.sha256()
