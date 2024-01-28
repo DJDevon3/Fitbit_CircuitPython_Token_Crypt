@@ -64,7 +64,6 @@ If Code Verifier = Fitbit Match you've matched their example's required encrypti
 ```
 - As of the creation of this file this just one of many many steps Fitbit requires to create an authorized API token.
 - This is essentially all just for creating the "verifier" which in plain english means a salt.
-- All this to create just the salt.
-- To actually create an automated tokenizer a web server or localhost server is required to passback their randomly generated "Authorization Code".
+- To create an automated tokenizer a web or localhost server is required to passback their randomly generated "Authorization Code".
 - This cannot be done by a microcontroller alone easily enough to recommend it as an API example.
 - I don't want the work I put into making this go to waste so it will live here.
